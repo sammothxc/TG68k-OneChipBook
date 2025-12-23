@@ -1,1 +1,13 @@
 *.flock
+*.cdb
+*.kpt
+*.bpm
+*.tdf
+*.logdb
+*.smp_dump.txt
+*.hdl.mif
+*.cnf.hdb
+*.dpi
+*.tmw_info
+*.sig
+*.done

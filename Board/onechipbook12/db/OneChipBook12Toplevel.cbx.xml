@@ -1,5 +1,10 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="OneChipBook12Toplevel">
+		<CBX_INST_ENTRY INSTANCE_NAME="|OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_qol1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_jfs1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_ogm1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_qam1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0" CBX_FILE_NAME="altsyncram_9i71.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
