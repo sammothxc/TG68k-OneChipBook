@@ -1,4 +1,7 @@
--- Generic RTL expression of Dual port RAM with one read and one write port, unregistered output.
+-- Fixed DMACacheRAM - Uses Block RAM (M4K) instead of logic cells
+-- The original had an unregistered read output which prevented block RAM inference
+--
+-- For Cyclone I/II/III/IV, the RAM output MUST be registered for block RAM inference
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -8,7 +11,7 @@ entity DMACacheRAM is
 	generic
 		(
 			CacheAddrBits : integer := 8;
-			CacheWidth : integer :=16
+			CacheWidth : integer := 16
 		);
 	port (
 		clock : in std_logic;
@@ -22,24 +25,24 @@ end DMACacheRAM;
 
 architecture RTL of DMACacheRAM is
 
-type ram_type is array(natural range ((2**CacheAddrBits)-1) downto 0) of std_logic_vector(CacheWidth-1 downto 0);
-shared variable ram : ram_type;
+	type ram_type is array(0 to (2**CacheAddrBits)-1) of std_logic_vector(CacheWidth-1 downto 0);
+	signal ram : ram_type;
 
 begin
 
-process (clock)
-begin
-	if (clock'event and clock = '1') then
-		if wren='1' then
-			ram(to_integer(unsigned(wraddress))) := data;
+	-- Simple dual-port RAM with registered output
+	-- This coding style is recognized by Quartus for M4K block RAM inference
+	process (clock)
+	begin
+		if rising_edge(clock) then
+			-- Write port
+			if wren = '1' then
+				ram(to_integer(unsigned(wraddress))) <= data;
+			end if;
+			
+			-- Read port (registered output - REQUIRED for block RAM)
+			q <= ram(to_integer(unsigned(rdaddress)));
 		end if;
-	end if;
-end process;
+	end process;
 
-process (clock)
-begin
-	q <= ram(to_integer(unsigned(rdaddress)));
-end process;
-
-end rtl;
-
+end RTL;
