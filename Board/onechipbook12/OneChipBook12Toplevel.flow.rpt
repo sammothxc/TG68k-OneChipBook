@@ -1,5 +1,5 @@
 Flow report for OneChipBook12Toplevel
-Tue Dec 23 13:03:11 2025
+Tue Dec 23 13:41:06 2025
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------+
 ; Flow Summary                                                          ;
 +-----------------------+-----------------------------------------------+
-; Flow Status           ; Flow Failed - Tue Dec 23 13:03:10 2025        ;
+; Flow Status           ; Successful - Tue Dec 23 13:41:04 2025         ;
 ; Quartus II Version    ; 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition ;
 ; Revision Name         ; OneChipBook12Toplevel                         ;
 ; Top-level Entity Name ; OneChipBook12Toplevel                         ;
 ; Family                ; Cyclone                                       ;
 ; Device                ; EP1C12Q240C8                                  ;
 ; Timing Models         ; Final                                         ;
-; Total logic elements  ; 16,829 / 12,060 ( 140 % )                     ;
+; Total logic elements  ; 8,254 / 12,060 ( 68 % )                       ;
 ; Total pins            ; 85 / 173 ( 49 % )                             ;
 ; Total virtual pins    ; 0                                             ;
-; Total memory bits     ; 98,816 / 239,616 ( 41 % )                     ;
+; Total memory bits     ; 107,008 / 239,616 ( 45 % )                    ;
 ; Total PLLs            ; 1 / 2 ( 50 % )                                ;
 +-----------------------+-----------------------------------------------+
 
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 12/23/2025 12:58:20   ;
+; Start date & time ; 12/23/2025 13:37:23   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; OneChipBook12Toplevel ;
 +-------------------+-----------------------+
@@ -69,7 +69,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 237785196608309.176651990040932 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 237785196608309.176652224337744 ; --            ; --          ; --         ;
 ; CYCLONE_OPTIMIZATION_TECHNIQUE      ; Area                            ; Balanced      ; --          ; --         ;
 ; FITTER_EFFORT                       ; Standard Fit                    ; Auto Fit      ; --          ; --         ;
 ; FLOW_ENABLE_RTL_VIEWER              ; On                              ; Off           ; --          ; --         ;
@@ -81,25 +81,29 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 355 MB              ; 00:00:39                           ;
-; Fitter               ; 00:03:00     ; 1.0                     ; 391 MB              ; 00:03:00                           ;
-; Total                ; 00:03:39     ; --                      ; --                  ; 00:03:39                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:33     ; 1.0                     ; 355 MB              ; 00:00:32                           ;
+; Fitter                    ; 00:00:46     ; 1.0                     ; 391 MB              ; 00:00:46                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 281 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 276 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:23     ; --                      ; --                  ; 00:01:20                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter               ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; samw5600         ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
@@ -107,6 +111,8 @@ applicable agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off onechipbook12 -c OneChipBook12Toplevel
 quartus_fit --read_settings_files=on --write_settings_files=off onechipbook12 -c OneChipBook12Toplevel
+quartus_asm --read_settings_files=off --write_settings_files=off onechipbook12 -c OneChipBook12Toplevel
+quartus_sta onechipbook12 -c OneChipBook12Toplevel
 
 
 

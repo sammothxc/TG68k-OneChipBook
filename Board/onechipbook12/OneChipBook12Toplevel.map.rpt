@@ -1,5 +1,5 @@
 Analysis & Synthesis report for OneChipBook12Toplevel
-Tue Dec 23 12:59:01 2025
+Tue Dec 23 13:37:55 2025
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
 
 
@@ -36,68 +36,70 @@ Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
  28. Source assignments for Top-level Entity: |OneChipBook12Toplevel
  29. Source assignments for VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0|altsyncram_qam1:auto_generated
  30. Source assignments for VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0|altsyncram_ogm1:auto_generated
- 31. Source assignments for VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated
- 32. Source assignments for VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated
- 33. Source assignments for VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated
- 34. Parameter Settings for User Entity Instance: pll_21to43:pll_inst|altpll:altpll_component
- 35. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst
- 36. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|debounce:ps2m_db
- 37. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|debounce:ps2k_db
- 38. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68
- 39. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU
- 40. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom
- 41. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram
- 42. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram
- 43. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram
- 44. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter
- 45. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:1:myfifocounter
- 46. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter
- 47. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter
- 48. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:4:myfifocounter
- 49. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter
- 50. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM
- 51. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga
- 52. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster
- 53. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen
- 54. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom
- 55. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom
- 56. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral
- 57. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart
- 58. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard
- 59. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse
- 60. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sound_wrapper:myaudio
- 61. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sound_wrapper:myaudio|risingedge_divider:myclkdiv
- 62. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0
- 63. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0
- 64. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0
- 65. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0
- 66. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0
- 67. altpll Parameter Settings by Entity Instance
- 68. altsyncram Parameter Settings by Entity Instance
- 69. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel3"
- 70. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel2"
- 71. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel1"
- 72. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel0"
- 73. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio"
- 74. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse"
- 75. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard"
- 76. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral"
- 77. Port Connectivity Checks: "VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom"
- 78. Port Connectivity Checks: "VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster"
- 79. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram"
- 80. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram"
- 81. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc"
- 82. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram"
- 83. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom"
- 84. Port Connectivity Checks: "VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU"
- 85. Port Connectivity Checks: "VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68"
- 86. Port Connectivity Checks: "VirtualToplevel:soc_inst|interrupt_controller:myint"
- 87. Port Connectivity Checks: "VirtualToplevel:soc_inst|debounce:ps2k_db"
- 88. Port Connectivity Checks: "VirtualToplevel:soc_inst|debounce:ps2m_db"
- 89. Port Connectivity Checks: "VirtualToplevel:soc_inst"
- 90. Port Connectivity Checks: "pll_21to43:pll_inst"
- 91. Elapsed Time Per Partition
- 92. Analysis & Synthesis Messages
+ 31. Source assignments for VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0|altsyncram_sjg1:auto_generated
+ 32. Source assignments for VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated
+ 33. Source assignments for VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated
+ 34. Source assignments for VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated
+ 35. Parameter Settings for User Entity Instance: pll_21to43:pll_inst|altpll:altpll_component
+ 36. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst
+ 37. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|debounce:ps2m_db
+ 38. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|debounce:ps2k_db
+ 39. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68
+ 40. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU
+ 41. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom
+ 42. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram
+ 43. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram
+ 44. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram
+ 45. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter
+ 46. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:1:myfifocounter
+ 47. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter
+ 48. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter
+ 49. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:4:myfifocounter
+ 50. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter
+ 51. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM
+ 52. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga
+ 53. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster
+ 54. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen
+ 55. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom
+ 56. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom
+ 57. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral
+ 58. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart
+ 59. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard
+ 60. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse
+ 61. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sound_wrapper:myaudio
+ 62. Parameter Settings for User Entity Instance: VirtualToplevel:soc_inst|sound_wrapper:myaudio|risingedge_divider:myclkdiv
+ 63. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0
+ 64. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0
+ 65. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0
+ 66. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0
+ 67. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0
+ 68. Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0
+ 69. altpll Parameter Settings by Entity Instance
+ 70. altsyncram Parameter Settings by Entity Instance
+ 71. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel3"
+ 72. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel2"
+ 73. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel1"
+ 74. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel0"
+ 75. Port Connectivity Checks: "VirtualToplevel:soc_inst|sound_wrapper:myaudio"
+ 76. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse"
+ 77. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard"
+ 78. Port Connectivity Checks: "VirtualToplevel:soc_inst|peripheral_controller:myperipheral"
+ 79. Port Connectivity Checks: "VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom"
+ 80. Port Connectivity Checks: "VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster"
+ 81. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram"
+ 82. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram"
+ 83. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc"
+ 84. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdram:mysdram"
+ 85. Port Connectivity Checks: "VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom"
+ 86. Port Connectivity Checks: "VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU"
+ 87. Port Connectivity Checks: "VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68"
+ 88. Port Connectivity Checks: "VirtualToplevel:soc_inst|interrupt_controller:myint"
+ 89. Port Connectivity Checks: "VirtualToplevel:soc_inst|debounce:ps2k_db"
+ 90. Port Connectivity Checks: "VirtualToplevel:soc_inst|debounce:ps2m_db"
+ 91. Port Connectivity Checks: "VirtualToplevel:soc_inst"
+ 92. Port Connectivity Checks: "pll_21to43:pll_inst"
+ 93. Elapsed Time Per Partition
+ 94. Analysis & Synthesis Messages
 
 
 
@@ -123,15 +125,15 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                ;
 +-----------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Tue Dec 23 12:59:01 2025         ;
+; Analysis & Synthesis Status ; Successful - Tue Dec 23 13:37:55 2025         ;
 ; Quartus II Version          ; 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition ;
 ; Revision Name               ; OneChipBook12Toplevel                         ;
 ; Top-level Entity Name       ; OneChipBook12Toplevel                         ;
 ; Family                      ; Cyclone                                       ;
-; Total logic elements        ; 23,420                                        ;
+; Total logic elements        ; 9,232                                         ;
 ; Total pins                  ; 85                                            ;
 ; Total virtual pins          ; 0                                             ;
-; Total memory bits           ; 98,816                                        ;
+; Total memory bits           ; 107,008                                       ;
 ; Total PLLs                  ; 1                                             ;
 +-----------------------------+-----------------------------------------------+
 
@@ -276,6 +278,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; altdpram.inc                                           ; yes             ; Megafunction                                          ; c:/altera/11.0sp1/quartus/libraries/megafunctions/altdpram.inc                                  ;
 ; db/altsyncram_qam1.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; E:/TG68k-OneChipBook/Board/onechipbook12/db/altsyncram_qam1.tdf                                 ;
 ; db/altsyncram_ogm1.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; E:/TG68k-OneChipBook/Board/onechipbook12/db/altsyncram_ogm1.tdf                                 ;
+; db/altsyncram_sjg1.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; E:/TG68k-OneChipBook/Board/onechipbook12/db/altsyncram_sjg1.tdf                                 ;
 ; db/altsyncram_9i71.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; E:/TG68k-OneChipBook/Board/onechipbook12/db/altsyncram_9i71.tdf                                 ;
 ; db/onechipbook12.ram0_charrom_rom_dc07042c.hdl.mif     ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; E:/TG68k-OneChipBook/Board/onechipbook12/db/onechipbook12.ram0_charrom_rom_dc07042c.hdl.mif     ;
 ; db/altsyncram_jfs1.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; E:/TG68k-OneChipBook/Board/onechipbook12/db/altsyncram_jfs1.tdf                                 ;
@@ -289,107 +292,110 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+---------------------------------------------------+
 ; Resource                                    ; Usage                                             ;
 +---------------------------------------------+---------------------------------------------------+
-; Total logic elements                        ; 23420                                             ;
-;     -- Combinational with no register       ; 11604                                             ;
-;     -- Register only                        ; 9980                                              ;
+; Total logic elements                        ; 9232                                              ;
+;     -- Combinational with no register       ; 5608                                              ;
+;     -- Register only                        ; 1788                                              ;
 ;     -- Combinational with a register        ; 1836                                              ;
 ;                                             ;                                                   ;
 ; Logic element usage by number of LUT inputs ;                                                   ;
-;     -- 4 input functions                    ; 10137                                             ;
-;     -- 3 input functions                    ; 2125                                              ;
-;     -- 2 input functions                    ; 1037                                              ;
-;     -- 1 input functions                    ; 139                                               ;
+;     -- 4 input functions                    ; 4163                                              ;
+;     -- 3 input functions                    ; 2100                                              ;
+;     -- 2 input functions                    ; 1039                                              ;
+;     -- 1 input functions                    ; 140                                               ;
 ;     -- 0 input functions                    ; 2                                                 ;
 ;                                             ;                                                   ;
 ; Logic elements by mode                      ;                                                   ;
-;     -- normal mode                          ; 22573                                             ;
+;     -- normal mode                          ; 8385                                              ;
 ;     -- arithmetic mode                      ; 847                                               ;
 ;     -- qfbk mode                            ; 0                                                 ;
 ;     -- register cascade mode                ; 0                                                 ;
 ;     -- synchronous clear/load mode          ; 735                                               ;
 ;     -- asynchronous clear/load mode         ; 616                                               ;
 ;                                             ;                                                   ;
-; Total registers                             ; 11816                                             ;
+; Total registers                             ; 3624                                              ;
 ; Total logic cells in carry chains           ; 908                                               ;
 ; I/O pins                                    ; 85                                                ;
-; Total memory bits                           ; 98816                                             ;
+; Total memory bits                           ; 107008                                            ;
 ; Total PLLs                                  ; 1                                                 ;
 ;     -- PLLs                                 ; 1                                                 ;
 ;                                             ;                                                   ;
 ; Maximum fan-out node                        ; pll_21to43:pll_inst|altpll:altpll_component|_clk0 ;
-; Maximum fan-out                             ; 11878                                             ;
-; Total fan-out                               ; 85160                                             ;
-; Average fan-out                             ; 3.61                                              ;
+; Maximum fan-out                             ; 3702                                              ;
+; Total fan-out                               ; 36954                                             ;
+; Average fan-out                             ; 3.93                                              ;
 +---------------------------------------------+---------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                           ;
-+-------------------------------------------------------+---------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node                            ; Logic Cells   ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                                                                                                            ; Library Name ;
-+-------------------------------------------------------+---------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |OneChipBook12Toplevel                                ; 23420 (23)    ; 11816        ; 98816       ; 85   ; 0            ; 11604 (6)    ; 9980 (0)          ; 1836 (17)        ; 908 (16)        ; 0 (0)      ; |OneChipBook12Toplevel                                                                                                                                                         ;              ;
-;    |VirtualToplevel:soc_inst|                         ; 23397 (174)   ; 11799        ; 98816       ; 0    ; 0            ; 11598 (61)   ; 9980 (79)         ; 1819 (34)        ; 892 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst                                                                                                                                ;              ;
-;       |DMACache:mydmacache|                           ; 15035 (782)   ; 8621         ; 0           ; 0    ; 0            ; 6414 (395)   ; 8250 (58)         ; 371 (329)        ; 77 (35)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache                                                                                                            ;              ;
-;          |DMACacheRAM:myDMACacheRAM|                  ; 14192 (14192) ; 8192         ; 0           ; 0    ; 0            ; 6000 (6000)  ; 8192 (8192)       ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM                                                                                  ;              ;
-;          |FIFO_Counter:\FIFOCounters:0:myfifocounter| ; 9 (9)         ; 7            ; 0           ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter                                                                 ;              ;
-;          |FIFO_Counter:\FIFOCounters:1:myfifocounter| ; 10 (10)       ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:1:myfifocounter                                                                 ;              ;
-;          |FIFO_Counter:\FIFOCounters:2:myfifocounter| ; 10 (10)       ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter                                                                 ;              ;
-;          |FIFO_Counter:\FIFOCounters:3:myfifocounter| ; 10 (10)       ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter                                                                 ;              ;
-;          |FIFO_Counter:\FIFOCounters:4:myfifocounter| ; 12 (12)       ; 7            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:4:myfifocounter                                                                 ;              ;
-;          |FIFO_Counter:\FIFOCounters:5:myfifocounter| ; 10 (10)       ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter                                                                 ;              ;
-;       |TG68KdotC_Kernel:myTG68|                       ; 5122 (4011)   ; 1225         ; 0           ; 0    ; 0            ; 3897 (2946)  ; 722 (714)         ; 503 (351)        ; 329 (134)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68                                                                                                        ;              ;
-;          |TG68K_ALU:ALU|                              ; 1111 (1111)   ; 160          ; 0           ; 0    ; 0            ; 951 (951)    ; 8 (8)             ; 152 (152)        ; 195 (195)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU                                                                                          ;              ;
-;       |interrupt_controller:myint|                    ; 12 (12)       ; 7            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 7 (7)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|interrupt_controller:myint                                                                                                     ;              ;
-;       |peripheral_controller:myperipheral|            ; 1003 (351)    ; 603          ; 0           ; 0    ; 0            ; 400 (165)    ; 239 (108)         ; 364 (78)         ; 187 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral                                                                                             ;              ;
-;          |cascade_timer:mytimer|                      ; 324 (324)     ; 215          ; 0           ; 0    ; 0            ; 109 (109)    ; 66 (66)           ; 149 (149)        ; 128 (128)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer                                                                       ;              ;
-;          |io_ps2_com:mykeyboard|                      ; 118 (118)     ; 57           ; 0           ; 0    ; 0            ; 61 (61)      ; 21 (21)           ; 36 (36)          ; 13 (13)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard                                                                       ;              ;
-;          |io_ps2_com:mymouse|                         ; 2 (2)         ; 2            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse                                                                          ;              ;
-;          |simple_uart:myuart|                         ; 120 (120)     ; 80           ; 0           ; 0    ; 0            ; 40 (40)      ; 10 (10)           ; 70 (70)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart                                                                          ;              ;
-;          |spi_interface:myspi|                        ; 88 (88)       ; 63           ; 0           ; 0    ; 0            ; 25 (25)      ; 34 (34)           ; 29 (29)          ; 14 (14)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi                                                                         ;              ;
-;       |sdbootstrap_ROM:mybootrom|                     ; 2 (2)         ; 0            ; 32768       ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom                                                                                                      ;              ;
-;          |altsyncram:ram_rtl_0|                       ; 0 (0)         ; 0            ; 32768       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0                                                                                 ;              ;
-;             |altsyncram_jfs1:auto_generated|          ; 0 (0)         ; 0            ; 32768       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated                                                  ;              ;
-;       |sdram:mysdram|                                 ; 523 (328)     ; 254          ; 41472       ; 0    ; 0            ; 269 (153)    ; 112 (102)         ; 142 (73)         ; 10 (0)          ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram                                                                                                                  ;              ;
-;          |TwoWayCache:mytwc|                          ; 195 (195)     ; 79           ; 41472       ; 0    ; 0            ; 116 (116)    ; 10 (10)           ; 69 (69)          ; 10 (10)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc                                                                                                ;              ;
-;             |DualPortRAM:dataram|                     ; 0 (0)         ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram                                                                            ;              ;
-;                |altsyncram:ram_rtl_0|                 ; 0 (0)         ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0                                                       ;              ;
-;                   |altsyncram_ogm1:auto_generated|    ; 0 (0)         ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0|altsyncram_ogm1:auto_generated                        ;              ;
-;             |DualPortRAM:tagram|                      ; 0 (0)         ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram                                                                             ;              ;
-;                |altsyncram:ram_rtl_0|                 ; 0 (0)         ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0                                                        ;              ;
-;                   |altsyncram_qam1:auto_generated|    ; 0 (0)         ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0|altsyncram_qam1:auto_generated                         ;              ;
-;       |sound_wrapper:myaudio|                         ; 818 (4)       ; 547          ; 0           ; 0    ; 0            ; 271 (4)      ; 300 (0)           ; 247 (0)          ; 134 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio                                                                                                          ;              ;
-;          |risingedge_divider:myclkdiv|                ; 14 (14)       ; 7            ; 0           ; 0    ; 0            ; 7 (7)        ; 4 (4)             ; 3 (3)            ; 6 (6)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|risingedge_divider:myclkdiv                                                                              ;              ;
-;          |sound_controller:channel0|                  ; 203 (203)     ; 135          ; 0           ; 0    ; 0            ; 68 (68)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel0                                                                                ;              ;
-;          |sound_controller:channel1|                  ; 199 (199)     ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel1                                                                                ;              ;
-;          |sound_controller:channel2|                  ; 199 (199)     ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel2                                                                                ;              ;
-;          |sound_controller:channel3|                  ; 199 (199)     ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel3                                                                                ;              ;
-;       |vga_controller:myvga|                          ; 708 (528)     ; 429          ; 24576       ; 0    ; 0            ; 279 (173)    ; 278 (267)         ; 151 (88)         ; 155 (72)        ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga                                                                                                           ;              ;
-;          |charactergenerator:mychargen|               ; 84 (84)       ; 44           ; 24576       ; 0    ; 0            ; 40 (40)      ; 10 (10)           ; 34 (34)          ; 11 (11)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen                                                                              ;              ;
-;             |CharROM_ROM:mycharrom|                   ; 0 (0)         ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom                                                        ;              ;
-;                |altsyncram:rom_rtl_0|                 ; 0 (0)         ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0                                   ;              ;
-;                   |altsyncram_9i71:auto_generated|    ; 0 (0)         ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated    ;              ;
-;             |DualPortRAM:mymessagerom|                ; 0 (0)         ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom                                                     ;              ;
-;                |altsyncram:ram_rtl_0|                 ; 0 (0)         ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0                                ;              ;
-;                   |altsyncram_qol1:auto_generated|    ; 0 (0)         ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated ;              ;
-;          |video_vga_master:myVgaMaster|               ; 96 (96)       ; 30           ; 0           ; 0    ; 0            ; 66 (66)      ; 1 (1)             ; 29 (29)          ; 72 (72)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster                                                                              ;              ;
-;    |pll_21to43:pll_inst|                              ; 0 (0)         ; 0            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|pll_21to43:pll_inst                                                                                                                                     ;              ;
-;       |altpll:altpll_component|                       ; 0 (0)         ; 0            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|pll_21to43:pll_inst|altpll:altpll_component                                                                                                             ;              ;
-+-------------------------------------------------------+---------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                         ;
++-------------------------------------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                            ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                                                                                                            ; Library Name ;
++-------------------------------------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |OneChipBook12Toplevel                                ; 9232 (23)   ; 3624         ; 107008      ; 85   ; 0            ; 5608 (6)     ; 1788 (0)          ; 1836 (17)        ; 908 (16)        ; 0 (0)      ; |OneChipBook12Toplevel                                                                                                                                                         ;              ;
+;    |VirtualToplevel:soc_inst|                         ; 9209 (174)  ; 3607         ; 107008      ; 0    ; 0            ; 5602 (61)    ; 1788 (79)         ; 1819 (34)        ; 892 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst                                                                                                                                ;              ;
+;       |DMACache:mydmacache|                           ; 843 (780)   ; 429          ; 8192        ; 0    ; 0            ; 414 (393)    ; 58 (58)           ; 371 (329)        ; 77 (35)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache                                                                                                            ;              ;
+;          |DMACacheRAM:myDMACacheRAM|                  ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM                                                                                  ;              ;
+;             |altsyncram:ram_rtl_0|                    ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0                                                             ;              ;
+;                |altsyncram_sjg1:auto_generated|       ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0|altsyncram_sjg1:auto_generated                              ;              ;
+;          |FIFO_Counter:\FIFOCounters:0:myfifocounter| ; 9 (9)       ; 7            ; 0           ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter                                                                 ;              ;
+;          |FIFO_Counter:\FIFOCounters:1:myfifocounter| ; 10 (10)     ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:1:myfifocounter                                                                 ;              ;
+;          |FIFO_Counter:\FIFOCounters:2:myfifocounter| ; 10 (10)     ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter                                                                 ;              ;
+;          |FIFO_Counter:\FIFOCounters:3:myfifocounter| ; 12 (12)     ; 7            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter                                                                 ;              ;
+;          |FIFO_Counter:\FIFOCounters:4:myfifocounter| ; 12 (12)     ; 7            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:4:myfifocounter                                                                 ;              ;
+;          |FIFO_Counter:\FIFOCounters:5:myfifocounter| ; 10 (10)     ; 7            ; 0           ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 7 (7)            ; 7 (7)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter                                                                 ;              ;
+;       |TG68KdotC_Kernel:myTG68|                       ; 5125 (4016) ; 1225         ; 0           ; 0    ; 0            ; 3900 (2951)  ; 721 (713)         ; 504 (352)        ; 329 (134)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68                                                                                                        ;              ;
+;          |TG68K_ALU:ALU|                              ; 1109 (1109) ; 160          ; 0           ; 0    ; 0            ; 949 (949)    ; 8 (8)             ; 152 (152)        ; 195 (195)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU                                                                                          ;              ;
+;       |interrupt_controller:myint|                    ; 12 (12)     ; 7            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 7 (7)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|interrupt_controller:myint                                                                                                     ;              ;
+;       |peripheral_controller:myperipheral|            ; 1004 (352)  ; 603          ; 0           ; 0    ; 0            ; 401 (166)    ; 240 (109)         ; 363 (77)         ; 187 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral                                                                                             ;              ;
+;          |cascade_timer:mytimer|                      ; 324 (324)   ; 215          ; 0           ; 0    ; 0            ; 109 (109)    ; 66 (66)           ; 149 (149)        ; 128 (128)       ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer                                                                       ;              ;
+;          |io_ps2_com:mykeyboard|                      ; 118 (118)   ; 57           ; 0           ; 0    ; 0            ; 61 (61)      ; 21 (21)           ; 36 (36)          ; 13 (13)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard                                                                       ;              ;
+;          |io_ps2_com:mymouse|                         ; 2 (2)       ; 2            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse                                                                          ;              ;
+;          |simple_uart:myuart|                         ; 120 (120)   ; 80           ; 0           ; 0    ; 0            ; 40 (40)      ; 10 (10)           ; 70 (70)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart                                                                          ;              ;
+;          |spi_interface:myspi|                        ; 88 (88)     ; 63           ; 0           ; 0    ; 0            ; 25 (25)      ; 34 (34)           ; 29 (29)          ; 14 (14)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi                                                                         ;              ;
+;       |sdbootstrap_ROM:mybootrom|                     ; 2 (2)       ; 0            ; 32768       ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom                                                                                                      ;              ;
+;          |altsyncram:ram_rtl_0|                       ; 0 (0)       ; 0            ; 32768       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0                                                                                 ;              ;
+;             |altsyncram_jfs1:auto_generated|          ; 0 (0)       ; 0            ; 32768       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated                                                  ;              ;
+;       |sdram:mysdram|                                 ; 523 (328)   ; 254          ; 41472       ; 0    ; 0            ; 269 (153)    ; 112 (102)         ; 142 (73)         ; 10 (0)          ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram                                                                                                                  ;              ;
+;          |TwoWayCache:mytwc|                          ; 195 (195)   ; 79           ; 41472       ; 0    ; 0            ; 116 (116)    ; 10 (10)           ; 69 (69)          ; 10 (10)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc                                                                                                ;              ;
+;             |DualPortRAM:dataram|                     ; 0 (0)       ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram                                                                            ;              ;
+;                |altsyncram:ram_rtl_0|                 ; 0 (0)       ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0                                                       ;              ;
+;                   |altsyncram_ogm1:auto_generated|    ; 0 (0)       ; 0            ; 36864       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0|altsyncram_ogm1:auto_generated                        ;              ;
+;             |DualPortRAM:tagram|                      ; 0 (0)       ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram                                                                             ;              ;
+;                |altsyncram:ram_rtl_0|                 ; 0 (0)       ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0                                                        ;              ;
+;                   |altsyncram_qam1:auto_generated|    ; 0 (0)       ; 0            ; 4608        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0|altsyncram_qam1:auto_generated                         ;              ;
+;       |sound_wrapper:myaudio|                         ; 818 (4)     ; 547          ; 0           ; 0    ; 0            ; 271 (4)      ; 300 (0)           ; 247 (0)          ; 134 (0)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio                                                                                                          ;              ;
+;          |risingedge_divider:myclkdiv|                ; 14 (14)     ; 7            ; 0           ; 0    ; 0            ; 7 (7)        ; 4 (4)             ; 3 (3)            ; 6 (6)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|risingedge_divider:myclkdiv                                                                              ;              ;
+;          |sound_controller:channel0|                  ; 203 (203)   ; 135          ; 0           ; 0    ; 0            ; 68 (68)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel0                                                                                ;              ;
+;          |sound_controller:channel1|                  ; 199 (199)   ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel1                                                                                ;              ;
+;          |sound_controller:channel2|                  ; 199 (199)   ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel2                                                                                ;              ;
+;          |sound_controller:channel3|                  ; 199 (199)   ; 135          ; 0           ; 0    ; 0            ; 64 (64)      ; 74 (74)           ; 61 (61)          ; 32 (32)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel3                                                                                ;              ;
+;       |vga_controller:myvga|                          ; 708 (528)   ; 429          ; 24576       ; 0    ; 0            ; 279 (173)    ; 278 (267)         ; 151 (88)         ; 155 (72)        ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga                                                                                                           ;              ;
+;          |charactergenerator:mychargen|               ; 84 (84)     ; 44           ; 24576       ; 0    ; 0            ; 40 (40)      ; 10 (10)           ; 34 (34)          ; 11 (11)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen                                                                              ;              ;
+;             |CharROM_ROM:mycharrom|                   ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom                                                        ;              ;
+;                |altsyncram:rom_rtl_0|                 ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0                                   ;              ;
+;                   |altsyncram_9i71:auto_generated|    ; 0 (0)       ; 0            ; 8192        ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated    ;              ;
+;             |DualPortRAM:mymessagerom|                ; 0 (0)       ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom                                                     ;              ;
+;                |altsyncram:ram_rtl_0|                 ; 0 (0)       ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0                                ;              ;
+;                   |altsyncram_qol1:auto_generated|    ; 0 (0)       ; 0            ; 16384       ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated ;              ;
+;          |video_vga_master:myVgaMaster|               ; 96 (96)     ; 30           ; 0           ; 0    ; 0            ; 66 (66)      ; 1 (1)             ; 29 (29)          ; 72 (72)         ; 0 (0)      ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|video_vga_master:myVgaMaster                                                                              ;              ;
+;    |pll_21to43:pll_inst|                              ; 0 (0)       ; 0            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|pll_21to43:pll_inst                                                                                                                                     ;              ;
+;       |altpll:altpll_component|                       ; 0 (0)       ; 0            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |OneChipBook12Toplevel|pll_21to43:pll_inst|altpll:altpll_component                                                                                                             ;              ;
++-------------------------------------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                                                                                        ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
-; Name                                                                                                                                                               ; Type ; Mode           ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                                    ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
-; VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated|ALTSYNCRAM                                                  ; AUTO ; True Dual Port ; 4096         ; 8            ; 4096         ; 8            ; 32768 ; db/onechipbook12.ram0_sdbootstrap_ROM_65f34fce.hdl.mif ;
-; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0|altsyncram_ogm1:auto_generated|ALTSYNCRAM                        ; AUTO ; True Dual Port ; 2048         ; 18           ; 2048         ; 18           ; 36864 ; None                                                   ;
-; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0|altsyncram_qam1:auto_generated|ALTSYNCRAM                         ; AUTO ; True Dual Port ; 512          ; 18           ; 512          ; 18           ; 9216  ; None                                                   ;
-; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated|ALTSYNCRAM    ; AUTO ; ROM            ; 1024         ; 8            ; --           ; --           ; 8192  ; db/onechipbook12.ram0_CharROM_ROM_dc07042c.hdl.mif     ;
-; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated|ALTSYNCRAM ; AUTO ; True Dual Port ; 2048         ; 8            ; 2048         ; 8            ; 16384 ; None                                                   ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                                                                                          ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
+; Name                                                                                                                                                               ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                                    ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
+; VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0|altsyncram_sjg1:auto_generated|ALTSYNCRAM                              ; AUTO ; Simple Dual Port ; 512          ; 16           ; 512          ; 16           ; 8192  ; None                                                   ;
+; VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|altsyncram:ram_rtl_0|altsyncram_jfs1:auto_generated|ALTSYNCRAM                                                  ; AUTO ; True Dual Port   ; 4096         ; 8            ; 4096         ; 8            ; 32768 ; db/onechipbook12.ram0_sdbootstrap_ROM_65f34fce.hdl.mif ;
+; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|altsyncram:ram_rtl_0|altsyncram_ogm1:auto_generated|ALTSYNCRAM                        ; AUTO ; True Dual Port   ; 2048         ; 18           ; 2048         ; 18           ; 36864 ; None                                                   ;
+; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0|altsyncram_qam1:auto_generated|ALTSYNCRAM                         ; AUTO ; True Dual Port   ; 512          ; 18           ; 512          ; 18           ; 9216  ; None                                                   ;
+; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0|altsyncram_9i71:auto_generated|ALTSYNCRAM    ; AUTO ; ROM              ; 1024         ; 8            ; --           ; --           ; 8192  ; db/onechipbook12.ram0_CharROM_ROM_dc07042c.hdl.mif     ;
+; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|altsyncram:ram_rtl_0|altsyncram_qol1:auto_generated|ALTSYNCRAM ; AUTO ; True Dual Port   ; 2048         ; 8            ; 2048         ; 8            ; 16384 ; None                                                   ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -802,10 +808,10 @@ Encoding Type:  One-Hot
 ; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.st_229_2                                     ; Merged with VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.ld_229_2                                ;
 ; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.st_229_3                                     ; Merged with VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.ld_229_3                                ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|comState.stateWaitHighRecv ; Merged with VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|comState.stateWaitAck ;
+; VirtualToplevel:soc_inst|sdram:mysdram|sdram_slot2.port0                                                  ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|sdram:mysdram|writecache_state.finish                                            ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|prgstate.pause                                                                   ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.bf1                                          ; Stuck at GND due to stuck port data_in                                                                           ;
-; VirtualToplevel:soc_inst|sdram:mysdram|sdram_slot2.port0                                                  ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|comState.stateWaitAck      ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|sendDone                   ; Stuck at GND due to stuck port data_in                                                                           ;
 ; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state.ld_229_2                                     ; Stuck at GND due to stuck port data_in                                                                           ;
@@ -1091,12 +1097,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 11816 ;
+; Total registers                              ; 3624  ;
 ; Number of registers using Synchronous Clear  ; 172   ;
 ; Number of registers using Synchronous Load   ; 625   ;
 ; Number of registers using Asynchronous Clear ; 616   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 11286 ;
+; Number of registers using Clock Enable       ; 3094  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -1142,7 +1148,7 @@ Encoding Type:  One-Hot
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|ser_clock_divisor[7]                    ; 3       ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|ser_clock_divisor[8]                    ; 3       ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|ser_clock_divisor[9]                    ; 3       ;
-; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Reset                                              ; 176     ;
+; VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Reset                                              ; 175     ;
 ; VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|divisor7[8]       ; 1       ;
 ; VirtualToplevel:soc_inst|vga_controller:myvga|hbstop[9]                                             ; 1       ;
 ; VirtualToplevel:soc_inst|vga_controller:myvga|hbstart[9]                                            ; 1       ;
@@ -1202,6 +1208,7 @@ Encoding Type:  One-Hot
 ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|q_b[0..16]                        ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|ram_rtl_0                         ; RAM  ;
 ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|q_a[0..17]                       ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|ram_rtl_0                        ; RAM  ;
 ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|q_b[0..17]                       ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:dataram|ram_rtl_0                        ; RAM  ;
+; VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|q[0..15]                               ; VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|ram_rtl_0                              ; RAM  ;
 ; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|q[0..7]      ; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|rom_rtl_0    ; RAM  ;
 ; VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|q[0..15]                                                   ; VirtualToplevel:soc_inst|sdbootstrap_ROM:mybootrom|ram_rtl_0                                                  ; RAM  ;
 ; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|q_a[0..6] ; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|DualPortRAM:mymessagerom|ram_rtl_0 ; RAM  ;
@@ -1215,169 +1222,169 @@ Encoding Type:  One-Hot
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                                                                ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------------------------------------+----------------------------+
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memread[0]                                        ;                            ;
-; 3:1                ; 22 bits   ; 44 LEs        ; 22 LEs               ; 22 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|execOPC                                           ;                            ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|kbdsendtrigger                         ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txcounter[4]        ;                            ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|div_reg[47]                         ;                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|audio_reg_req                                                             ;                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|clkFilterCnt[2]  ;                            ;
+; 3:1                ; 22 bits   ; 44 LEs        ; 22 LEs               ; 22 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|last_opc_read[12]                                 ;                            ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|timer_set                              ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txcounter[0]        ;                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|div_reg[42]                         ;                            ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|per_reg_req                                                               ;                            ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|clkFilterCnt[1]  ;                            ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|mulu_reg[38]                        ;                            ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|ycounter[1]             ;                            ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter|counter[5] ;                            ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:5:myfifocounter|counter[2] ;                            ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:4:myfifocounter|counter[5] ;                            ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter|counter[6] ;                            ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter|counter[4] ;                            ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:3:myfifocounter|counter[3] ;                            ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:2:myfifocounter|counter[5] ;                            ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:1:myfifocounter|counter[4] ;                            ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter|counter[6] ;                            ;
-; 4:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi|shiftcnt[5]        ;                            ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter|counter[3] ;                            ;
+; 4:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi|shiftcnt[6]        ;                            ;
 ; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|cache_wraddr[5]                                       ;                            ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|red[2]                                               ;                            ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|blue[2]                                              ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|green[7]                                             ;                            ;
 ; 4:1                ; 13 bits   ; 26 LEs        ; 26 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|green[5]                                             ;                            ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txbuffer[13]        ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txbuffer[0]         ;                            ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|rxcounter[3]        ;                            ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].wrptr_next[3]                            ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].addr[0]                                  ;                            ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].wrptr_next[3]                            ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].addr[31]                                 ;                            ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].wrptr[4]                                 ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].addr[21]                                 ;                            ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].wrptr[5]                                 ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].addr[9]                                  ;                            ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txbuffer[9]         ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|txbuffer[3]         ;                            ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|rxcounter[9]        ;                            ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].wrptr_next[4]                            ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].addr[28]                                 ;                            ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].wrptr_next[4]                            ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].addr[22]                                 ;                            ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].wrptr_next[3]                            ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].addr[16]                                 ;                            ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].wrptr[4]                                 ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].addr[29]                                 ;                            ;
 ; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].wrptr[4]                                 ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].addr[18]                                 ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].addr[15]                                 ;                            ;
 ; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].wrptr[3]                                 ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].addr[16]                                 ;                            ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|IPL_vec[5]                                        ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|IPL_vec[2]                                        ;                            ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|opcode[5]                                         ;                            ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|ea_data[5]                                        ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|last_data_read[10]                                ;                            ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|rot_cnt[4]                                        ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|messageaddr[10]         ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].rdptr[3]                                 ;                            ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].addr[7]                                  ;                            ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|IPL_vec[3]                                        ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|IPL_vec[0]                                        ;                            ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|opcode[4]                                         ;                            ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|ea_data[1]                                        ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|last_data_read[15]                                ;                            ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|rot_cnt[0]                                        ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|messageaddr[9]          ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].rdptr[5]                                 ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].rdptr[2]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].rdptr[3]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].rdptr[0]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].rdptr[5]                                 ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].rdptr[5]                                 ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].rdptr[1]                                 ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].rdptr[4]                                 ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].rdptr[1]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].rdptr[5]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].rdptr[2]                                 ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].rdptr[4]                                 ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].rdptr[1]                                 ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].rdptr[4]                                 ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].rdptr[1]                                 ;                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].rdptr[4]                                 ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].rdptr[0]                                 ;                            ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|mulu_reg[19]                        ;                            ;
-; 4:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|chargen_addr[10]                                     ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|chargen_datain[3]                                    ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|data_from_ram[4]                                      ;                            ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|slot1_bank[0]                                               ;                            ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memmask[4]                                        ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].rdptr[1]                                 ;                            ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|mulu_reg[17]                        ;                            ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|chargen_addr[1]                                      ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|chargen_datain[1]                                    ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|data_from_ram[8]                                      ;                            ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|slot1_bank[1]                                               ;                            ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memmask[3]                                        ;                            ;
 ; 5:1                ; 7 bits    ; 21 LEs        ; 7 LEs                ; 14 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi|sd_out[1]          ;                            ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi|sd_out[10]         ;                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|spi_interface:myspi|sd_out[11]         ;                            ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|state[0]                                          ;                            ;
-; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|opcode[13]                                        ;                            ;
-; 6:1                ; 4 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|sprite_col[2]                                        ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 16 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|gpio_dir[9]~reg0                       ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter6[4]      ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter5[3]      ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter4[2]      ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter3[10]     ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter2[9]      ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter1[9]      ;                            ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|reg_data_out[14]                                     ;                            ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|reg_data_out[4]                                      ;                            ;
-; 5:1                ; 11 bits   ; 33 LEs        ; 22 LEs               ; 11 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|rowaddr[1]              ;                            ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|FlagsSR[4]                                        ;                            ;
-; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|last_data_read[21]                                ;                            ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|opcode[8]                                         ;                            ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|sprite_col[0]                                        ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 16 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|gpio_dir[7]~reg0                       ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter6[12]     ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter5[15]     ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter4[7]      ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter3[4]      ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter2[11]     ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|cascade_timer:mytimer|counter1[12]     ;                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|reg_data_out[8]                                      ;                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|reg_data_out[7]                                      ;                            ;
+; 5:1                ; 11 bits   ; 33 LEs        ; 22 LEs               ; 11 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|rowaddr[0]              ;                            ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|FlagsSR[6]                                        ;                            ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|last_data_read[25]                                ;                            ;
 ; 6:1                ; 32 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68_PC[8]                                        ;                            ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|RDindex_B[2]                                      ;                            ;
-; 4:1                ; 17 bits   ; 34 LEs        ; 34 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].count[16]                                ;                            ;
-; 6:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|rxbuffer[2]         ;                            ;
-; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_to_cpu[13]                           ;                            ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|RDindex_B[1]                                      ;                            ;
+; 4:1                ; 17 bits   ; 34 LEs        ; 34 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].count[2]                                 ;                            ;
+; 6:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|rxbuffer[8]         ;                            ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_to_cpu[0]                            ;                            ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_ports_w[17]                          ;                            ;
 ; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_ports_w[13]                          ;                            ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|RDindex_A[0]                                      ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].count[15]                                ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[5].count[6]                                 ;                            ;
 ; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[4].count[15]                                ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].count[15]                                ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].count[0]                                 ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[3].count[11]                                ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[2].count[15]                                ;                            ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].count[16]                                ;                            ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].count[10]                                ;                            ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 26 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|waitCount[1]        ;                            ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 26 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|waitCount[7]     ;                            ;
-; 7:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|bitCount[3]      ;                            ;
-; 8:1                ; 3 bits    ; 15 LEs        ; 3 LEs                ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|exec[19]                                          ;                            ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 2 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|exec[59]                                          ;                            ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|host_to_spi[3]                         ;                            ;
-; 8:1                ; 3 bits    ; 15 LEs        ; 12 LEs               ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|activechannel[2]                                      ;                            ;
-; 9:1                ; 24 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_delta[10]                                 ;                            ;
-; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_delta[8]                                  ;                            ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].count[11]                                ;                            ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 26 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|waitCount[5]        ;                            ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 26 LEs               ; 13 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|waitCount[6]     ;                            ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mykeyboard|bitCount[0]      ;                            ;
+; 8:1                ; 3 bits    ; 15 LEs        ; 3 LEs                ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|exec[18]                                          ;                            ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 2 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|exec[60]                                          ;                            ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|host_to_spi[4]                         ;                            ;
+; 8:1                ; 3 bits    ; 15 LEs        ; 12 LEs               ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|activechannel[0]                                      ;                            ;
+; 9:1                ; 24 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_delta[30]                                 ;                            ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_delta[5]                                  ;                            ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 2 LEs                ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|cas_dqm[0]                                                  ;                            ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|FlagsSR[2]                                        ;                            ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 3 LEs                ; 15 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|readword[2]                               ;                            ;
-; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[13]                       ;                            ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|FlagsSR[0]                                        ;                            ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 3 LEs                ; 15 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|readword[0]                               ;                            ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[14]                       ;                            ;
 ; 9:1                ; 13 bits   ; 78 LEs        ; 26 LEs               ; 52 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|cpu_datain[7]                                                             ;                            ;
 ; 9:1                ; 3 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|cpu_datain[2]                                                             ;                            ;
-; 10:1               ; 6 bits    ; 36 LEs        ; 6 LEs                ; 30 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[0].fill                                     ;                            ;
-; 11:1               ; 2 bits    ; 14 LEs        ; 4 LEs                ; 10 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|trap_vector[6]                                    ;                            ;
-; 11:1               ; 4 bits    ; 28 LEs        ; 24 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|trap_vector[2]                                    ;                            ;
+; 10:1               ; 6 bits    ; 36 LEs        ; 6 LEs                ; 30 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|internals[1].fill                                     ;                            ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 4 LEs                ; 10 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|trap_vector[7]                                    ;                            ;
+; 11:1               ; 4 bits    ; 28 LEs        ; 24 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|trap_vector[5]                                    ;                            ;
 ; 12:1               ; 3 bits    ; 24 LEs        ; 18 LEs               ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[6]                                 ;                            ;
 ; 12:1               ; 2 bits    ; 16 LEs        ; 14 LEs               ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[0]                                 ;                            ;
-; 12:1               ; 3 bits    ; 24 LEs        ; 21 LEs               ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[2]                                 ;                            ;
-; 13:1               ; 16 bits   ; 128 LEs       ; 96 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[19]                                ;                            ;
-; 13:1               ; 6 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[14]                                ;                            ;
-; 13:1               ; 2 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[9]                                 ;                            ;
+; 12:1               ; 3 bits    ; 24 LEs        ; 21 LEs               ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[4]                                 ;                            ;
+; 13:1               ; 16 bits   ; 128 LEs       ; 96 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[20]                                ;                            ;
+; 13:1               ; 6 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[12]                                ;                            ;
+; 13:1               ; 2 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write_tmp[8]                                 ;                            ;
 ; 11:1               ; 2 bits    ; 14 LEs        ; 4 LEs                ; 10 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|casaddr[3]                                                  ;                            ;
-; 11:1               ; 6 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|casaddr[10]                                                 ;                            ;
+; 11:1               ; 6 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|casaddr[6]                                                  ;                            ;
 ; 12:1               ; 3 bits    ; 24 LEs        ; 21 LEs               ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[9]                        ;                            ;
-; 13:1               ; 2 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[7]                        ;                            ;
-; 14:1               ; 2 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|dqm[1]                                                      ;                            ;
+; 13:1               ; 2 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[8]                        ;                            ;
+; 14:1               ; 2 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|dqm[0]                                                      ;                            ;
 ; 14:1               ; 2 bits    ; 18 LEs        ; 16 LEs               ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|reg_data_out[2]                        ;                            ;
 ; 20:1               ; 2 bits    ; 26 LEs        ; 12 LEs               ; 14 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|ba[1]                                                       ;                            ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdaddr[11]                                                  ;                            ;
-; 7:1                ; 5 bits    ; 20 LEs        ; 15 LEs               ; 5 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdaddr[8]                                                   ;                            ;
-; 7:1                ; 4 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdaddr[0]                                                   ;                            ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|slot2_bank[0]                                               ;                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|messageaddr[1]          ;                            ;
+; 7:1                ; 5 bits    ; 20 LEs        ; 15 LEs               ; 5 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdaddr[6]                                                   ;                            ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdaddr[5]                                                   ;                            ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|slot2_bank[1]                                               ;                            ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|messageaddr[0]          ;                            ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|interrupt_controller:myint|int_out_b[1]                                   ;                            ;
-; 9:1                ; 16 bits   ; 96 LEs        ; 32 LEs               ; 64 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|datain[15]                                                  ;                            ;
+; 9:1                ; 16 bits   ; 96 LEs        ; 32 LEs               ; 64 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|datain[5]                                                   ;                            ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdram_slot1                                                 ;                            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdram_slot2                                                 ;                            ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charramstate.readupperbyte1                          ;                            ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|vga_controller:myvga|charramstate.writeupperbyte                          ;                            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|trapmake                                          ;                            ;
 ; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state                                       ;                            ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state                                       ;                            ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_a[4]                                      ;                            ;
 ; 3:1                ; 29 bits   ; 58 LEs        ; 58 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|PC_datab[13]                                      ;                            ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|bit_number[3]                       ;                            ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_port1_addr[5]                        ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_read[25]                                     ;                            ;
-; 6:1                ; 52 bits   ; 208 LEs       ; 208 LEs              ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Mux48                                                 ;                            ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|bit_number[4]                       ;                            ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|data_port1_addr[9]                        ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_read[23]                                     ;                            ;
+; 6:1                ; 52 bits   ; 208 LEs       ; 208 LEs              ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Mux37                                                 ;                            ;
 ; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdram_state                                                 ;                            ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|movem_mux[1]                                      ;                            ;
 ; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP1out[10]                                        ;                            ;
 ; 4:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_a[17]                                     ;                            ;
 ; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|Add10                               ;                            ;
 ; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|Add10                               ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[0]                                          ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write[15]                                    ;                            ;
-; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Mux61                                                 ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[7]                                          ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write[13]                                    ;                            ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Mux56                                                 ;                            ;
 ; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|TG68K_ALU:ALU|notaddsub_b[19]                     ;                            ;
 ; 5:1                ; 9 bits    ; 27 LEs        ; 27 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|sdram_state                                                 ;                            ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|memaddr_a[3]                                      ;                            ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[14]                                         ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[25]                                         ;                            ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write[6]                                     ;                            ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|Selector5                                                   ;                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[13]                                         ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regin[23]                                         ;                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|data_write[4]                                     ;                            ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|Selector7                                                   ;                            ;
 ; 7:1                ; 4 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[6]                                         ;                            ;
-; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[2]                                         ;                            ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[3]                                         ;                            ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|servicechannel                                        ;                            ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|Selector3           ;                            ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[10]                                        ;                            ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[31]                                        ;                            ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|Selector2           ;                            ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|Selector1           ;                            ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[14]                                        ;                            ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|OP2out[19]                                        ;                            ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|simple_uart:myuart|Selector0           ;                            ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|state                                     ;                            ;
 ; 9:1                ; 4 bits    ; 24 LEs        ; 4 LEs                ; 20 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|prgstate                                                                  ;                            ;
 ; 9:1                ; 4 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|prgstate                                                                  ;                            ;
@@ -1385,9 +1392,9 @@ Encoding Type:  One-Hot
 ; 10:1               ; 2 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|state                                     ;                            ;
 ; 10:1               ; 3 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|comState            ;                            ;
 ; 12:1               ; 2 bits    ; 16 LEs        ; 6 LEs                ; 10 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|peripheral_controller:myperipheral|io_ps2_com:mymouse|comState            ;                            ;
-; 17:1               ; 2 bits    ; 22 LEs        ; 10 LEs               ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Selector4                                             ;                            ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Selector52                                        ;                            ;
-; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Selector54                                        ;                            ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 10 LEs               ; 12 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|DMACache:mydmacache|Selector5                                             ;                            ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Selector53                                        ;                            ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|Selector55                                        ;                            ;
 ; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state                                       ;                            ;
 ; 22:1               ; 2 bits    ; 28 LEs        ; 4 LEs                ; 24 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state                                       ;                            ;
 ; 37:1               ; 2 bits    ; 48 LEs        ; 4 LEs                ; 44 LEs                 ; |OneChipBook12Toplevel|VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|micro_state                                       ;                            ;
@@ -1503,6 +1510,15 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                         ;
 +---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0|altsyncram_sjg1:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                                                  ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                   ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2337,6 +2353,66 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0 ;
++------------------------------------+----------------------+----------------------------------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                                             ;
++------------------------------------+----------------------+----------------------------------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                                          ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                                                       ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                                                     ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                                                     ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                                                   ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                                          ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                                                                          ;
+; WIDTH_A                            ; 16                   ; Untyped                                                                          ;
+; WIDTHAD_A                          ; 9                    ; Untyped                                                                          ;
+; NUMWORDS_A                         ; 512                  ; Untyped                                                                          ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                                          ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                                          ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                                          ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                                          ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                                          ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                                          ;
+; WIDTH_B                            ; 16                   ; Untyped                                                                          ;
+; WIDTHAD_B                          ; 9                    ; Untyped                                                                          ;
+; NUMWORDS_B                         ; 512                  ; Untyped                                                                          ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                                                          ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                                                          ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                                                          ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                                                                          ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                                                          ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                                                          ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                                          ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                          ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                                                          ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                                                          ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                          ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                                          ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                                                                          ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                                                          ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                                                          ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                                                          ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA             ; Untyped                                                                          ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                          ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                          ;
+; INIT_FILE                          ; UNUSED               ; Untyped                                                                          ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                                          ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                                                          ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                                                                          ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                                                          ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                                                                          ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                                                          ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                                          ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                                          ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                                          ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                                                          ;
+; DEVICE_FAMILY                      ; Cyclone              ; Untyped                                                                          ;
+; CBXI_PARAMETER                     ; altsyncram_sjg1      ; Untyped                                                                          ;
++------------------------------------+----------------------+----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0 ;
 +------------------------------------+----------------------------------------------------+------------------------------------------------------------------------------+
@@ -2539,7 +2615,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
 ; Name                                      ; Value                                                                                                                    ;
 +-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-; Number of entity instances                ; 5                                                                                                                        ;
+; Number of entity instances                ; 6                                                                                                                        ;
 ; Entity Instance                           ; VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|altsyncram:ram_rtl_0                         ;
 ;     -- OPERATION_MODE                     ; BIDIR_DUAL_PORT                                                                                                          ;
 ;     -- WIDTH_A                            ; 18                                                                                                                       ;
@@ -2562,6 +2638,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                             ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                     ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                                                ;
+; Entity Instance                           ; VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0                              ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                                                                                                ;
+;     -- WIDTH_A                            ; 16                                                                                                                       ;
+;     -- NUMWORDS_A                         ; 512                                                                                                                      ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                             ;
+;     -- WIDTH_B                            ; 16                                                                                                                       ;
+;     -- NUMWORDS_B                         ; 512                                                                                                                      ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                                                                                   ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                             ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                     ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                                                                                                 ;
 ; Entity Instance                           ; VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0    ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                      ;
 ;     -- WIDTH_A                            ; 8                                                                                                                        ;
@@ -2843,7 +2930,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:37     ;
+; Top            ; 00:00:30     ;
 +----------------+--------------+
 
 
@@ -2853,7 +2940,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Dec 23 12:58:20 2025
+    Info: Processing started: Tue Dec 23 13:37:22 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off onechipbook12 -c OneChipBook12Toplevel
 Warning: Parallel compilation is not licensed and has been disabled
 Info: Found 2 design units, including 1 entities, in source file /tg68k-onechipbook/rtl/sound/sound_wrapper.vhd
@@ -3065,7 +3152,6 @@ Warning (10492): VHDL Process Statement warning at DMACache.vhd(120): signal "in
 Warning (10492): VHDL Process Statement warning at DMACache.vhd(121): signal "cache_wraddr_lsb" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info: Elaborating entity "FIFO_Counter" for hierarchy "VirtualToplevel:soc_inst|DMACache:mydmacache|FIFO_Counter:\FIFOCounters:0:myfifocounter"
 Info: Elaborating entity "DMACacheRAM" for hierarchy "VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM"
-Warning (10492): VHDL Process Statement warning at DMACacheRAM.vhd(41): signal "rdaddress" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info: Elaborating entity "vga_controller" for hierarchy "VirtualToplevel:soc_inst|vga_controller:myvga"
 Warning (10036): Verilog HDL or VHDL warning at vga_controller.vhd(132): object "vga_newframe" assigned a value but never read
 Warning (10492): VHDL Process Statement warning at vga_controller.vhd(164): signal "reg_req" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -3089,10 +3175,9 @@ Info: Elaborating entity "risingedge_divider" for hierarchy "VirtualToplevel:soc
 Warning (10492): VHDL Process Statement warning at risingedge_divider.vhd(27): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info: Elaborating entity "sound_controller" for hierarchy "VirtualToplevel:soc_inst|sound_wrapper:myaudio|sound_controller:channel0"
 Warning (10541): VHDL Signal Declaration warning at sound_controller.vhd(35): used implicit default value for signal "audio_int" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Info: Found 2 instances of uninferred RAM logic
+Info: Found 1 instances of uninferred RAM logic
     Info: RAM logic "VirtualToplevel:soc_inst|TG68KdotC_Kernel:myTG68|regfile" is uninferred due to asynchronous read logic
-    Info: RAM logic "VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|ram" is uninferred due to illegal secondary signals in read logic
-Info: Inferred 5 megafunctions from design logic
+Info: Inferred 6 megafunctions from design logic
     Info: Inferred altsyncram megafunction from the following design logic: "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCache:mytwc|DualPortRAM:tagram|ram_rtl_0" 
         Info: Parameter OPERATION_MODE set to BIDIR_DUAL_PORT
         Info: Parameter WIDTH_A set to 18
@@ -3129,6 +3214,22 @@ Info: Inferred 5 megafunctions from design logic
         Info: Parameter ADDRESS_ACLR_A set to NONE
         Info: Parameter ADDRESS_ACLR_B set to NONE
         Info: Parameter OUTDATA_ACLR_B set to NONE
+    Info: Inferred altsyncram megafunction from the following design logic: "VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|ram_rtl_0" 
+        Info: Parameter OPERATION_MODE set to DUAL_PORT
+        Info: Parameter WIDTH_A set to 16
+        Info: Parameter WIDTHAD_A set to 9
+        Info: Parameter NUMWORDS_A set to 512
+        Info: Parameter WIDTH_B set to 16
+        Info: Parameter WIDTHAD_B set to 9
+        Info: Parameter NUMWORDS_B set to 512
+        Info: Parameter ADDRESS_ACLR_A set to NONE
+        Info: Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info: Parameter ADDRESS_ACLR_B set to NONE
+        Info: Parameter OUTDATA_ACLR_B set to NONE
+        Info: Parameter ADDRESS_REG_B set to CLOCK0
+        Info: Parameter INDATA_ACLR_A set to NONE
+        Info: Parameter WRCONTROL_ACLR_A set to NONE
+        Info: Parameter READ_DURING_WRITE_MODE_MIXED_PORTS set to OLD_DATA
     Info: Inferred altsyncram megafunction from the following design logic: "VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|rom_rtl_0" 
         Info: Parameter OPERATION_MODE set to ROM
         Info: Parameter WIDTH_A set to 8
@@ -3219,6 +3320,25 @@ Info: Instantiated megafunction "VirtualToplevel:soc_inst|sdram:mysdram|TwoWayCa
     Info: Parameter "OUTDATA_ACLR_B" = "NONE"
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ogm1.tdf
     Info: Found entity 1: altsyncram_ogm1
+Info: Elaborated megafunction instantiation "VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0"
+Info: Instantiated megafunction "VirtualToplevel:soc_inst|DMACache:mydmacache|DMACacheRAM:myDMACacheRAM|altsyncram:ram_rtl_0" with the following parameter:
+    Info: Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info: Parameter "WIDTH_A" = "16"
+    Info: Parameter "WIDTHAD_A" = "9"
+    Info: Parameter "NUMWORDS_A" = "512"
+    Info: Parameter "WIDTH_B" = "16"
+    Info: Parameter "WIDTHAD_B" = "9"
+    Info: Parameter "NUMWORDS_B" = "512"
+    Info: Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info: Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info: Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info: Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info: Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info: Parameter "INDATA_ACLR_A" = "NONE"
+    Info: Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info: Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_sjg1.tdf
+    Info: Found entity 1: altsyncram_sjg1
 Info: Elaborated megafunction instantiation "VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0"
 Info: Instantiated megafunction "VirtualToplevel:soc_inst|vga_controller:myvga|charactergenerator:mychargen|CharROM_ROM:mycharrom|altsyncram:rom_rtl_0" with the following parameter:
     Info: Parameter "OPERATION_MODE" = "ROM"
@@ -3552,17 +3672,17 @@ Warning: Design contains 8 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "dip_sw[5]"
     Warning (15610): No output dependent on input pin "dip_sw[6]"
     Warning (15610): No output dependent on input pin "dip_sw[7]"
-Info: Implemented 23566 device resources after synthesis - the final resource count might be different
+Info: Implemented 9394 device resources after synthesis - the final resource count might be different
     Info: Implemented 11 input pins
     Info: Implemented 56 output pins
     Info: Implemented 18 bidirectional pins
-    Info: Implemented 23420 logic cells
-    Info: Implemented 60 RAM segments
+    Info: Implemented 9232 logic cells
+    Info: Implemented 76 RAM segments
     Info: Implemented 1 PLLs
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 84 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 83 warnings
     Info: Peak virtual memory: 355 megabytes
-    Info: Processing ended: Tue Dec 23 12:59:01 2025
-    Info: Elapsed time: 00:00:41
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Processing ended: Tue Dec 23 13:37:55 2025
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:00:33
 
 
